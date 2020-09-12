@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+export {  default as FirstPerson } from './components/FirstPerson';
+export { default as SecondPerson } from './components/SecondPerson';
+export { default as PersonSwitcher } from './components/PersonSwitcher';
+
 
 ReactDOM.render(
   <React.StrictMode>
